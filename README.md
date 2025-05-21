@@ -60,6 +60,11 @@ operation.grid.getSmartPush("DatamapName").execute(true)
   operation.application.getDataMap("DatamapName").createSmartPush().execute(overrideMems1,true);
 
   ```
+- Data map Name : Update the Smart push data map name to get executed
+- True/blank: Boolean parameter to clear the data before push pushing the data. 
+	Selecting  “execute(true)” will clear the data before pushing the data
+	Selecting  “execute()” will not clear the data before pushing the data
+
 ## 1.5	Groovy to Push data using REST API
 ```bash
 def uvProfitCenter = operation.application.getUserVariable("ProfitCenter").value.name
