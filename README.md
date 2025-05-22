@@ -8,7 +8,7 @@ Use this repository to store the Groovy samples to be part of the Groovy Library
  
 ##  1.1 Groovy to call the Data Map
 
-Below code can be used to run the data map and can attached in the.
+Below code can be used to run the data map and can attached in the form 2.
 
 ```bash
 operation.application.getDataMap("DatamapName").execute(true)
