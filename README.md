@@ -119,7 +119,7 @@ throwVetoException("Data Map Failed with Error: "+ErrorMsg);
 println "Success";
 } }
 ```
-## 1.6	Groovy To export data using Grid Builder:
+## 1.6	Groovy to export data using Grid Builder:
 The code below can be used to export data to a file if the data size is small. If the size is more it will give threshold error.
 ```bash
 The code below can be used to export data to a file if the data size is small. If the size is more it will give threshold error.
